@@ -1,0 +1,8 @@
+IP/
+Logs/
+Programas/
+Respaldos/
+Test/
+
+*.env
+ScriptLauncher.exe
