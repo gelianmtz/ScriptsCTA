@@ -1,0 +1,4 @@
+# ABRIR POWERSHELL COMO ADMINISTRADOR PARA HABILITAR LA EJECUCION DE SCRIPTS
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Get-ChildItem -Path 'D:' -Recurse | Unblock-File    # CAMBIAR POR LA UNIDAD CORRECTA
